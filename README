@@ -1,0 +1,17 @@
+Author: sgfowle, Sam Fowler
+Description: TCP client that sends a filename, then the contents of a file line by line and 
+		server that reads filenames, reads them line-by-line, reverses each line,
+		then prints to a unique output file, also supports concurrent connections.
+
+Files:
+server.c
+Contains source code for the TCP server
+
+client.c
+Contains source code for the TCP client
+
+Makefile
+Contains compilation rules
+
+README
+This file
